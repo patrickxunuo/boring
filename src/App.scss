@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+#root{
+  background: darkslategray;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  height:100%;
+}
+
+.animal{
+  position: relative;
+  .animal-eye{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .animal-eye-ball{
+    position: relative;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+  }
+}
